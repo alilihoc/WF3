@@ -1,0 +1,168 @@
+rp { 
+    padding:0 !important;
+}
+
+
+body{
+    background: rgb(97, 74, 74);
+}
+
+main{
+    width:960px !important;
+    margin: 0 auto !important;
+    background: #fff;
+}
+
+.bandeauduhaut {
+    width: 100%;
+    height: 250px;
+    background: url(../img/Bd.jpg),no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    margin-bottom: 10px;
+}
+
+header nav{
+}
+
+header nav ul{
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+
+header nav ul li{
+    margin:5px 75px;
+
+}
+
+header nav ul li a {
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header nav  .current{
+    color:rgb(186, 104, 66);
+}
+
+h1{
+    background:rgb(60, 51, 51);
+    color:white;
+    margin-top:10px;
+}
+
+.contenu h1 {
+    text-align: center;
+    font-weight:normal;
+    border-bottom: 3px dashed #000 ;/*solid , dotted , dashed*/
+    color:rgb(186, 104, 66)
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align:justify;
+}
+
+article span{
+    color:rgb(186, 104,  66); 
+    font-weight: bold;
+}
+
+article mark{
+    color:rgb(186, 104, 66);
+    font-size:16px;
+}
+
+footer{
+    background:rgb(60, 51, 51);
+    padding: 5px;
+}
+
+.gmap{
+    padding-top: 10px;
+}
+
+.newsletter{
+    max-width: 320px;
+}
+
+.newsletter fieldset{
+    font-family: 'Nocifer', sans-serif;
+    border-radius: 13px;
+    border: 3px solid #fff;
+    height: 200px;
+    color:black;
+    max-width:300px;
+    
+}
+
+.newsletter legend{
+    display: block;
+    width: 95px;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 19px;
+    line-height: inherit;
+    color: whitesmoke !important;
+    border: 0;
+    /* border-bottom: 1px solid #e5e5e5; */
+    margin-left: 10px;
+}
+
+
+.newsletter input{
+    width: 97%;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    position: center;
+    margin: 3px 3px;
+}
+
+.newsletter input[type=submit] {
+    width: 100%;
+    height:33px;
+    border:0;
+    background: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+    color:black;
+}
+
+.contact{
+    text-align: center;
+    max-width: 330px;
+}
+.contact h3 {
+    color:#fff ;
+    font-family: 'Nocifer', sans-serif;
+    font-weight:normal;
+    
+}
+
+.contact address{
+    color:#fff;
+    padding-left: 20px;
+    font-family: 'Nocifer', sans-serif;
+}
+
+.contact address strong{
+    font-size:20px;
+}
+
+.contact address a{
+    text-decoration:none;
+    color : #fff ;
+}
+
+.contact address a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Réponse exercice select</title>
+  <meta name="viewport" content="width=device-width">
+
+</head>
+
+<body>
+    
+<select>
+
+    <script type="text/javascript">
+    
+        var prenom = ["Pierette", "Robert", "Valérie", "Vanessa", "Clément", "Pauline", "Paulette", "Roger", "Bertrand"];
+        prenom.sort(); // attention aux min/maj et aux accents !
+        
+        var debutlettre = "";
+        var lettre = "";
+        
+        
+        for (var i = 0, len = prenom.length; i < len; i++) {
+            valeur = prenom[i];
+            if ((lettre=valeur.substr(0, 1)) != debutlettre)
+            {
+                if (debutlettre) document.write( '</optgroup>' );
+                document.write( '<optgroup label="' + lettre + '">' );
+                debutlettre=lettre;
+            }
+            document.write( '<option value="' + i + '">' + valeur + '</option>' );
+        }
+        
+        document.write( '</optgroup>' );
+        
+        
+    </script>
+    
+</select>

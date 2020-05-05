@@ -1,0 +1,370 @@
+body {
+    background: url(../img/fond.jpg) no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+main > p{
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+main > p span{
+    text-decoration: underline;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+/* --------- Header ---------*/
+
+header{
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(-90deg, #ffffff 0%, #dddddd 100%);
+    background: -moz-linear-gradient(-90deg, #ffffff 0%, #dddddd 100%);
+    background: -o-linear-gradient(-90deg, #ffffff 0%, #dddddd 100%);
+    background: -ms-linear-gradient(-90deg, #ffffff 0%, #dddddd 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #dddddd 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.65);
+    float:left;
+    position:relative;
+    z-index: 1;
+}
+
+/* --------- Traduction -------*/
+
+header > div{
+    width:25%;
+    height: 19px;
+    float:left;
+    margin: 15px 0 0 30px;
+}
+
+header > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px ;
+    color:black;
+    text-transform: uppercase;
+    float:left;
+    margin: 4px 5px 0 0 ;
+}
+
+/* --------- Drapeau Français -------*/
+    
+header > div > a:nth-child(2) {
+    display: block;
+    width: 29px;
+    height: 19px;
+    float:left;
+    background: url(../img/drapeaux.png) no-repeat;
+    text-indent: -5000px;
+    background-position: -70px 4px;
+}
+
+header > div > a:nth-child(3) {
+    display: block;
+    width: 29px;
+    height: 19px;
+    float:left;
+    background: url(../img/drapeaux.png) no-repeat;
+    text-indent: -5000px;
+    background-position: -105px 4px;
+    transition: 0.1s ease-in-out;
+}    
+
+header > div > a:nth-child(2):hover,
+header > div > a:last-child:hover {
+    background-position-y: 0px;
+}
+
+
+/* --------- Navigation -------*/
+
+header > nav {
+    width:auto;
+    height:auto;
+    float:right;
+    margin-right: 175px;
+
+}
+
+header > nav ul {
+    margin: 0;
+    padding:0;
+
+}
+
+header > nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+
+}    
+
+header > nav ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color:  #202020;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+header > nav ul li a:hover{
+    text-decoration:underline;
+}
+
+header > nav ul li.current a {
+    color:#3060a7;
+}
+
+header > nav li:nth-child(3) a{
+    color:#fe3224;
+}
+    
+/* --------- Contenu -------*/
+
+.projecteur {
+    width: 100%;
+    height: auto; 
+    float:left;
+    overflow: hidden;
+    position:relative;
+
+}
+
+
+
+/* ------------ Menu nav -----------*/
+
+.projecteur nav{
+    width:340px;
+    height:auto;
+    position: absolute;
+    top: 0px;
+    left: 175px;
+
+    background: -webkit-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -o-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -ms-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #bbbbbb 100%);
+    border-left:5px solid #c43e3e;
+    text-align: center;
+
+}
+
+.projecteur nav a img {
+    margin:20px 0
+}
+
+.projecteur nav ul {
+    margin: 0;
+    padding:0;
+}
+
+.projecteur nav  ul li  {
+    list-style: none;
+    width:100%;
+    height: 55px;
+    padding-top: 15px;
+
+
+    background: -webkit-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -o-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: -ms-linear-gradient(-90deg, #ffffff 0%, #bbbbbb 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #bbbbbb 100%);
+
+}
+
+
+
+.projecteur nav  ul li a {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size:18px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.projecteur nav  ul li a:hover{
+    text-decoration: underline;
+}
+
+.projecteur nav  ul li span{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-style: italic;
+    font-size:15px;
+    color:black;
+    font-weight: 300;
+}
+
+
+.projecteur nav ul li:first-child  a{
+    color:#fe3626
+}
+
+.projecteur nav ul li:nth-child(2) a{
+    color:#bc8242;
+}
+
+.projecteur nav ul li:nth-child(3) a{
+    color:#3860a7;
+}
+
+.projecteur nav ul li:nth-child(4) a{
+    color:#08a640
+}    
+    
+
+    
+
+
+
+/*  ----------------- Pied de page Centrale ------------------*/
+
+
+.bandeaurouge {
+    background-color:  #fe3224;
+    height: 50px;
+    width: 100%;
+    margin-top: -4px;
+    float:left;
+    text-align: center;
+    position:relative;
+
+}
+
+.bandeaurouge img {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.composersejour{
+    width:100%;
+    height: auto;
+    float:left;
+    background: -webkit-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+    background: -moz-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+    background: -o-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+    background: -ms-radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+    background: radial-gradient(circle farthest-side at 50%, #ffffff 0%, #febeb9 100%);
+    text-align: center ;
+}
+
+.composersejour p{
+    max-width: 951px;
+    width: 100%;
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto auto auto ; 
+
+}
+
+.composersejour > p > span{
+    font-family: Arial;
+    color:  #fe372a;
+    font-size: 13px;
+    font-weight: 400;
+}
+.composersejour > u{
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+.btn-sejour { 
+    background: -webkit-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -moz-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -o-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: -ms-linear-gradient(-90deg, #fe8e86 0%, #fe3224 100%);
+    background: linear-gradient(180deg, #fe8e86 0%, #fe3224 100%);
+    width: 346px;
+    height: 37px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto auto ;
+    position: relative
+}
+
+.btn-sejour > a {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 37px;
+
+    margin: 0 auto ;
+    text-align: center;
+    margin: auto auto ;
+    position: relative;
+
+}
+
+.btn-sejour img{
+    position: absolute;
+    right: 28px;
+    bottom: -16px;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+}
+
+.btn-sejour:hover img{
+    visibility: visible;
+    opacity: 1;
+    bottom: -8px;
+    transform: rotate(-15deg);
+
+}
+
+.btn-sejour a::before{
+    width: 147px;
+    height: 36px;
+    background: url(../img/flechedroite.png);
+    content: " ";
+    position: absolute;
+    top: -9px;
+    left: -210px;
+    
+}
+
+.btn-sejour a::after{
+    width: 147px;
+    height: 36px;
+    background: url(../img/flechedroite.png);
+    content: " ";
+    position: absolute;
+    top: -9px;
+    right: -210px;
+    transform: rotate(-180deg)
+}  
+                        
+                    
+
+

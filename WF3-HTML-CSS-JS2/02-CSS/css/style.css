@@ -1,0 +1,245 @@
+/*----------------------------------------
+Dans cette feuille de style , on va pouvoir styliser notre page !
+
+### La syntaxe ####
+element {
+    propriété:valeur;
+}
+
+--------------------------------------*/
+
+/*Ajout de Google Font */
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+h1{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+a, h1, h3 {
+    font-family: 'Nocifer', sans-serif;
+
+}
+
+.header a { 
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: uppercase; /* texte en Majuscule*/
+}
+
+.header ul {
+    margin:0;
+    padding:0;
+}
+
+.header ul li{
+    display: inline-block;    /* propriété qui permet de mettre un menu en ligne*/
+    width: 317px;
+    text-align:center;
+    
+}
+
+/* --   Lien en rouge au survol --*/
+
+a:hover {
+    color: red;
+}
+
+    
+.current a {
+    color:rgb(186, 104, 66);
+    ;
+    ;
+}
+
+#page {
+    /* -- je vais définir la largeur de ma page--*/
+    width:960px ;
+                           
+    /* margin : <top/bottom> <left/right> */
+    margin: 0 auto;
+    
+    /*Je rajoute à ma page un fond blanc*/
+    background: #fff;
+
+}
+
+/* Je souhaite changer la couleur du fond de ma page */
+body {
+    background: rgb(97, 74, 74)
+}
+
+
+/* Consigne: #page
+1 - Marge top/bottom 80px
+2- border-radius:5px
+3- Box shadow : ombre legere */
+
+#page {
+    margin: 80px auto 80px auto; /* top / right / bottom / left*/
+    border-radius : 5px;       
+    box-shadow: 10px 10px 5px black; /* offset-x / offset-y / blur-radius / color */
+    padding: 5px; 
+    overflow:hidden;
+}
+
+h1{
+    background:rgb(60, 51, 51);
+    color:white;
+    margin-top:10px;
+}
+.contenu h1 {
+    text-align: center;
+    font-weight:normal;
+    border-bottom: 3px dashed #000 ;/*solid , dotted , dashed*/
+    color:rgb(186, 104, 66)
+}
+
+.Bandeauduhaut {
+    width:100%;
+    height: 275px;
+    background: url(../img/Bd.jpg) no-repeat;
+    background-size:cover;
+    background-position-y: -40px;
+    margin-bottom: 10px;
+}
+
+/*-- 
+CSS pour illustration et Article 
+      --*/
+
+.contenu {
+    /*-- Dimension et positionnement */
+    width: 100% ;
+    height:auto ; 
+    float : left;
+
+    /*-- Décoration --*/
+
+}
+
+.illustration{
+    /*-- Dimension et positionnement */
+    width:480px;
+    height: auto;
+    float:left;
+}
+
+.illustration img{
+        /*-- Dimension et positionnement */
+    max-width:100%;
+
+}
+
+.article {
+    /*-- Dimension et positionnement */
+    width: 460px ;
+    height: auto;
+    float:left;
+    margin-left: 10px;
+
+    /*-- Décoration --*/
+    margin: 0 10px 0 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align:justify;
+}
+
+.article span{
+    color:rgb(186, 104,  66); 
+    font-weight: bold;
+}
+
+.article mark{
+    color:rgb(186, 104, 66);
+    font-size:20px;
+    background: rgb(60, 51, 51);
+}
+    
+    /*-- Style de mon pied de page --*/
+
+footer{
+    width:100%;
+    height:220px ;
+    float: left;
+    background:rgb(60, 51, 51);
+    padding: 5px;
+}
+
+.gmap{
+    width: 310px ;
+    height:219px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+.newsletter{
+    width:310px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.newsletter fieldset{
+    font-family: 'Nocifer', sans-serif;
+    border-radius: 13px;
+    border: 3px solid #fff ;
+    height: 200px;
+    color:white;
+    
+}
+
+
+.newsletter input{
+    width: 95%;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 5px;
+    position:center;
+}
+
+.newsletter input[type=submit] {
+    width: 100%;
+    height:33px;
+    border:0;
+    background: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.contact {
+    width:310px ;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.contact h3 {
+    color:#fff ;
+    font-family: 'Nocifer', sans-serif;
+    padding-left: 20px;
+    font-weight:normal;
+    
+}
+
+.contact address{
+    color:#fff;
+    padding-left: 20px;
+    font-family: 'Nocifer', sans-serif;
+}
+
+.contact address strong{
+    font-size:20px;
+}
+
+.contact address a{
+    text-decoration:none;
+    color : #fff ;
+}
+
+.contact address a:hover{
+    text-decoration: underline;
+}
